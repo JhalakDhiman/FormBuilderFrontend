@@ -1,4 +1,4 @@
-import React, { useState, useRef, useContext } from "react";
+import { useState, useRef, useContext } from "react";
 import { RxCross2 } from "react-icons/rx";
 import { FormContext } from "../../context/FormContext";
 import { addClozeQuestion, editClozeQuestion } from "../../apiCalls/calls";

@@ -1,9 +1,8 @@
-import React, { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 import { FormContext } from "../../context/FormContext";
 import { MdEdit } from "react-icons/md";
 import { MdDelete } from "react-icons/md";
-import CommonModal from "./CommonModal";
 import { deleteCategoryQuestion } from "../../apiCalls/calls";
 import CategorizeModal from "./CategorizeModal";
 

@@ -1,5 +1,4 @@
-import React, { useContext, useState } from "react";
-import CommonModal from "./CommonModal";
+import { useContext, useState } from "react";
 import { MdEdit } from "react-icons/md";
 import { MdDelete } from "react-icons/md";
 import { FormContext } from "../../context/FormContext";

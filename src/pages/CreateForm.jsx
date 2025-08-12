@@ -1,6 +1,4 @@
-import React, {  useContext, useEffect, useState } from 'react'
-import Button from '../components/common/Button';
-import CommonModal from '../components/core/CommonModal';
+import { useContext, useEffect, useState } from 'react'
 import { FormContext } from '../context/FormContext';
 import ClozeQuestionDisplay from '../components/core/ClozeQuestionDisplay';
 import { getFormData } from '../apiCalls/calls';

@@ -1,7 +1,4 @@
-import React from 'react'
 import { useState } from 'react';
-import { FaCopy } from "react-icons/fa";
-import { LuCopyCheck } from "react-icons/lu";
 import { LuCopy } from "react-icons/lu";
 import { IoMdCheckmarkCircle } from "react-icons/io";
 
